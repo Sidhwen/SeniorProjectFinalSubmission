@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/ic_settings_white_24px">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:enabled="true"
+        android:icon="@drawable/ic_autorenew_black_24px"
+        android:title="@string/text_refresh_database"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_exit"
+        android:enabled="true"
+        android:icon="@drawable/ic_exit_to_app_black_24px"
+        android:title="@string/text_exit"
+        app:showAsAction="ifRoom" />
+</menu>

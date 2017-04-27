@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.NUWC_ETJ.displays">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NUWC_MAIN_Activity" android:label="Home"/>
+        <activity android:name=".NUWC_Sign_In" android:label="Welcome"/>
+        <activity android:name=".WELCOME_display" android:label="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NUWC_refresh" android:label="Refresh Local Data"/>
+        <activity android:name=".NUWC_Admin" android:label="Personal Information"/>
+        <activity android:name=".NUWC_NOBC" android:label="NOBC Information"/>
+        <activity android:name=".NUWC_NEC" android:label="NEC Information"/>
+        <activity android:name=".NUWC_Credentials" android:label="Credentials"/>
+        <activity android:name=".NOBC_classification_display" android:label="Classifications"/>
+        <activity android:name=".NOBC_language_display" android:label="Languages"/>
+        <activity android:name=".NOBC_history_display" android:label="History"/>
+        <activity android:name=".NEC_classification_display" android:label="Classifications"/>
+        <activity android:name=".NEC_lang_display" android:label="Languages"/>
+        <activity android:name=".NEC_history_display" android:label="History"/>
+        <activity android:name=".CRED_training_display" android:label="Training"/>
+        <activity android:name=".CRED_qual_display" android:label="Qualifications"/>
+        <activity android:name=".CRED_asvab_display" android:label="ASVAB Information"/>
+        <activity android:name=".NUWC_admin_data" android:label="Personal Data" />
+        <activity android:name=".NUWC_awards" android:label="Awards"/>
+        <activity android:name=".WLAN_change" android:label="WLAN Change"/>
+
+
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+
+</manifest>

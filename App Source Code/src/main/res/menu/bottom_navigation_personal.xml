@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_career"
+        android:enabled="true"
+        android:icon="@drawable/ic_work_white_24px"
+        android:title="@string/text_career"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_white_24px"
+        android:title="@string/text_home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_credentials"
+        android:enabled="true"
+        android:icon="@drawable/ic_assignment_white_24px"
+        android:title="@string/text_credentials"
+        app:showAsAction="ifRoom" />
+</menu>

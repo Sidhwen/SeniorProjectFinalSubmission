@@ -1,0 +1,36 @@
+<resources>
+
+    //added compose_email tag, app_name already declared.
+    <string name="compose_email">Compose Email</string>
+
+    <string name="app_name">Mobile ETJ</string>
+    <string name="title_activity_nuwc__nec">NUWC_NEC</string>
+
+    <string name="title_activity_welcome_display">WELCOME_display</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_wlan_change_display">WLAN_change_display</string>
+
+    <string name="text_refresh_database">Refresh Data</string>
+    <string name="text_career_information">Career Information</string>
+    <string name="text_personal_information">Personal Information</string>
+    <string name="text_training">Training</string>
+    <string name="text_qualifications">Qualifications</string>
+    <string name="text_asvab_btb">ASVAB / BTB</string>
+    <string name="text_back">Back</string>
+    <string name="text_history">Career History</string>
+    <string name="text_languages">Languages</string>
+    <string name="text_classifications">Classifications</string>
+    <string name="text_nec_info">NEC Information</string>
+    <string name="text_nobc_info">NOBC Information</string>
+    <string name="text_personal_data">Personal Data</string>
+    <string name="text_awards">Awards</string>
+    <string name="text_exit">Exit</string>
+    <string name="text_search">Search</string>
+
+    <string name="text_personal">Personal</string>
+    <string name="text_career">Career</string>
+    <string name="text_credentials">Credentials</string>
+    <string name="text_home">Home</string>
+
+</resources>
